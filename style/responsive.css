@@ -1,0 +1,20 @@
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .main__movie{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main__movie__container{
+        width: 90%;
+        margin-left: 0px;
+        padding-bottom: 100px;
+    }
+}

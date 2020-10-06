@@ -46,12 +46,14 @@ header nav a:hover{
 }
 
 .main__movie__container{
-    width: 90%;
-    margin: 0 auto;
+    width: 60%;
+    margin-left: 70px;
+    padding-bottom: 100px;
 }
 
 .movie__title{
     font-size: 4rem;
+    margin-top: 15%;
 }
 
 .movie__description{
@@ -59,6 +61,7 @@ header nav a:hover{
 }
 
 .main__btn{
+    width: 200px;
     border: none;
     color: #FFF;
     padding: 15px 30px;
@@ -66,16 +69,38 @@ header nav a:hover{
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
+    transition:  .5s ease-in-out;
+    
 }
 
-.main__btn:hover{
-    outline: 1px solid #FFF;
+.main__btn span{
+    float: left;
 }
 
 .main__btn:nth-child(1){
     background-color: var(--red);
 }
 
+.main__btn:nth-child(1):hover{
+    color: var(--red);
+    background-color: #FFF;
+}
+
 .main__btn:nth-child(2){
     background-color: rgba(0, 0, 0, .30);
+}
+
+.main__btn:nth-child(2):hover{
+    color: rgba(0, 0, 0, .30);
+    background-color: #FFF;
+}
+
+.thumb__movie{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.carousel__movies{
+    margin-top: 50px;
 }

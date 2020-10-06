@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NetFlix Clone</title>
     <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
 <body>
     <header>
@@ -27,12 +31,34 @@
                 <h3 class="movie__title">House Of Cards</h3>
                 <p class="movie__description">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
                 <div class="main__movie__buttons">
-                    <button class="main__btn" role="button">Assistir</button>
-                    <button class="main__btn" role="button">+ Minha lista</button>
+                    <button class="main__btn" role="button">
+                        <span class="material-icons">
+                            play_arrow
+                        </span>
+                        <p>Assistir</p>
+                    </button>
+                    <button class="main__btn" role="button"><p>+ Minha lista</p></button>
                 </div>
             </div>
         </div>
     </main>
-
+    <div class="carousel__movies">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="thumb__movie" src="img/thumb/eTMMU2rKpZRbo9ERytyhwatwAj.jpg"></div>
+            <div class="item"><img class="thumb__movie" src="img/thumb/img1.jpg"></div>
+            <div class="item"><img class="thumb__movie" src="img/thumb/img2.jpg"></div>
+            <div class="item"><img class="thumb__movie" src="img/thumb/img3.jpg"></div>
+            <div class="item"><img class="thumb__movie" src="img/thumb/img4.jpg"></div>
+            <div class="item"><img class="thumb__movie" src="img/thumb/img5.jpg"></div>
+            <div class="item"><img class="thumb__movie" src="img/thumb/img6.jpg"></div>
+            <div class="item"><img class="thumb__movie" src="img/thumb/img7.jpg"></div>
+            <div class="item"><img class="thumb__movie" src="img/thumb/img8.jpg"></div>
+            <div class="item"><img class="thumb__movie" src="img/thumb/img9.jpg"></div>
+            <div class="item"><img class="thumb__movie" src="img/thumb/img10.jpg"></div>
+        </div>
+    </div>
+<script src="js/owl/jquery.min.js"></script>
+<script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
